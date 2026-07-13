@@ -1,4 +1,4 @@
-## Project: 05_STM32_ADC_HAL
+## Project: STM32_ADC_HAL
 
 ## Objective: Use the ADC (Analog to Digital Converter) on STM32F446RE to read an analog voltage from pin PA2 and control two LEDs (PA5 and PA6) based on the voltage level.
 
