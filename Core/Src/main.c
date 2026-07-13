@@ -107,7 +107,7 @@ while(HAL_ADC_PollForConversion(&hadc1,200) != HAL_OK){}
 	
 	while (HAL_ADC_Stop(&hadc1) != HAL_OK) ;
 		
-	if (converted_val > 500 ) {
+	if (converted_val > 70 ) {
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
 	  HAL_Delay (500);
 }
